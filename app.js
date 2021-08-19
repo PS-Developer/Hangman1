@@ -6,7 +6,7 @@ fetch("https://puzzle.mead.io/puzzle")
     const puzzleEl = document.querySelector("#puzzle");
     const guessesEl = document.querySelector("#guesses");
 
-    const game1 = new Hangman(newWord, 4);
+    const game1 = new Hangman(newWord, 6);
 
     puzzleEl.textContent = game1.puzzle;
     guessesEl.textContent = game1.statusMessage;
